@@ -217,6 +217,7 @@ export const articles: Article[] = [
     `,
   },
   {
+    
     slug: "ceph-debutant-retour-experience",
     title: "Ceph pour les débutants : ce que la documentation ne vous dit pas",
     excerpt: "Mes premiers pas avec Ceph sur Proxmox : les erreurs que j'ai faites, les ressources qui m'ont sauvé, et ce que je referais.",
