@@ -4,20 +4,20 @@ import { projects } from "@/lib/projects";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ArchitectureDiagram from "@/components/architectureDiagram";
+import ArchitectureDiagram from "@/components/architectureDiagram"; // ✅ IMPPORT
 
-// ✅ Génération statique des pages (reste synchrone)
+
+
+// ✅ Génération statique des pages
 export function generateStaticParams() {
   return projects.map((project) => ({
-    slug: project.slug,
+    slug: project.slug, // ← slug en minuscules
   }));
 }
 
-// ✅ Le composant devient async
-export default async function ProjetDetail({ params }: { params: { slug: string } }) {
-  // ✅ On attend params avant d'y accéder
-  const { slug } = await params;
-  const project = projects.find((p) => p.slug === slug);
+
+export default function ProjetDetail({ params }: { params: { slug: string } }) {
+  const project = projects.find((p) => p.slug === params.slug);
   
   if (!project) {
     notFound();

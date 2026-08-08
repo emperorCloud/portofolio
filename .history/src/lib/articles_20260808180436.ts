@@ -211,7 +211,7 @@ export const articles: Article[] = [
         <li>80% des employés utilisent l'assistant quotidiennement</li>
         <li>Temps de recherche documentaire divisé par 3</li>
         <li>Zéro donnée envoyée à l'extérieur</li>
-        <li>Coût total : 2 500 000 XAF (GPU + serveur), aucun abonnement</li>
+        <li>Coût total : 1 000 000 XAF (GPU + serveur), aucun abonnement</li>
       </ul>
       <p>Ce projet m'a convaincu que l'IA locale n'est pas un gadget. C'est un vrai levier de productivité pour les PME, à condition de bien le faire.</p>
     `,

@@ -22,7 +22,7 @@ export interface Project {
   description: string;
   stack: string[];
   image: string;
-  slug: string; // ← TOUT EN MINUSCULES
+  slug: string;
   challenge: string;
   solution: string;
   results: string[];
@@ -43,7 +43,7 @@ export const projects: Project[] = [
       "Infrastructure complète pour startup SaaS : isolation clients, outils collaboratifs, automatisation IA et reprise d'activité.",
     stack: ["Proxmox", "pfSense", "DNS", "Reverse Proxy", "NPM", "Nextcloud", "Odoo", "Gitea", "Flowise", "PBS"],
     image: "/images/weloobe.png",
-    slug: "weloobe", // ← MINUSCULE
+    slug: "Weloobe",
     challenge:
       "Isoler les données de plusieurs clients avec des exigences de sécurité strictes tout en maintenant une performance optimale et en contrôlant les coûts avec un budget startup.",
     solution:
@@ -108,7 +108,7 @@ export const projects: Project[] = [
       "Création complète d'un système d'information sur site pour 200 postes avec contraintes électriques et budget serré.",
     stack: ["Proxmox", "pfSense", "DNS", "Reverse Proxy", "NPM", "Nextcloud", "ZFS"],
     image: "/images/cpf-mbouo.png",
-    slug: "cpf-mbouo", // ← MINUSCULE
+    slug: "CPF-Mbouo",
     challenge:
       "Déployer une infrastructure complète dans un environnement avec alimentation électrique instable, connexion Internet peu fiable, et budget extrêmement limité.",
     solution:
@@ -139,7 +139,7 @@ export const projects: Project[] = [
       "Infrastructure centralisée avec ERP Odoo, VPN WireGuard et supervision unifiée pour 3 agences.",
     stack: ["Proxmox", "pfSense", "DNS", "Reverse Proxy", "NPM", "Odoo", "Zabbix", "WireGuard"],
     image: "/images/tqg.png",
-    slug: "tqg", // ← MINUSCULE
+    slug: "TQG",
     challenge:
       "Interconnecter 3 agences avec des liens Internet instables, fournir un accès centralisé à l'ERP, et superviser l'ensemble depuis le siège.",
     solution:
@@ -169,7 +169,7 @@ export const projects: Project[] = [
       "Gestion hôtelière 24/7 avec téléphonie IP, segmentation réseau et haute disponibilité.",
     stack: ["Proxmox", "pfSense", "FreePBX", "Odoo", "Nextcloud", "ZFS"],
     image: "/images/hotel-stenila.png",
-    slug: "hotel-stenila", // ← MINUSCULE
+    slug: "Hotel-Stenila",
     challenge:
       "Assurer un check-in/check-out 24/7, gérer la téléphonie IP interne, et isoler le réseau clients du réseau administratif avec un budget modéré.",
     solution:
@@ -199,7 +199,7 @@ export const projects: Project[] = [
       "Déploiement de LLM locaux (Mistral 7B) avec interface utilisateur sur hyperviseur XCP-ng.",
     stack: ["XCP-ng", "OpenWebUI", "Mistral 7B", "Ollama", "GPU Passthrough"],
     image: "/images/asait.png",
-    slug: "asait", // ← MINUSCULE
+    slug: "ASAIT",
     challenge:
       "Permettre l'utilisation de l'IA générative en interne sans envoyer les données sensibles à l'extérieur, avec une interface simple pour les utilisateurs non techniques.",
     solution:
@@ -263,7 +263,7 @@ export const projects: Project[] = [
       "Gestion électronique de documents avec Alfresco, authentification centralisée Keycloak et assistant IA DeepSeek.",
     stack: ["XCP-ng", "pfSense", "NPM", "Keycloak", "Alfresco", "OpenWebUI", "DeepSeek"],
     image: "/images/pad.png",
-    slug: "pad", // ← MINUSCULE
+    slug: "PAD",
     challenge:
       "Mettre en place une GED industrielle avec workflows de validation, signatures électroniques, et un assistant IA capable d'analyser les documents, le tout avec une authentification unique.",
     solution:
@@ -293,7 +293,7 @@ export const projects: Project[] = [
       "Système de gestion de la qualité pour conformité ISO 9001 avec traçabilité complète.",
     stack: ["Proxmox", "OpenQMS", "ZFS"],
     image: "/images/alpha.png",
-    slug: "alpha", // ← MINUSCULE
+    slug: "Alpha",
     challenge:
       "Déployer un système de gestion de la qualité conforme ISO 9001 avec gestion documentaire, suivi des non-conformités, et traçabilité complète des actions correctives.",
     solution:

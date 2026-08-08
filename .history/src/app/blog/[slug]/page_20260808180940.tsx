@@ -11,11 +11,8 @@ export function generateStaticParams() {
   }));
 }
 
-// ✅ Le composant devient async
-export default async function ArticleDetail({ params }: { params: { slug: string } }) {
-  // ✅ On attend params avant d'y accéder
-  const { slug } = await params;
-  const article = articles.find((a) => a.slug === slug);
+export default function ArticleDetail({ params }: { params: { slug: string } }) {
+  const article = articles.find((a) => a.slug === params.slug);
 
   if (!article) {
     notFound();
