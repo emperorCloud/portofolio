@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "Beaureilo NANTSA - Architecte Infrastructure",
     images: [
       {
-        url: "/Nboreilo.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Beaureilo NANTSA - Infrastructure & Cloud Architect",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "Beaureilo NANTSA | Infrastructure & Cloud Architect",
     description:
       "Portfolio d'architecture infrastructure d'entreprise : cloud privé, virtualisation, stockage, cybersécurité, Kubernetes et IA locale.",
-    images: ["/Nboreilo.png"],
+    images: ["/og-image.png"],
   },
 };
 

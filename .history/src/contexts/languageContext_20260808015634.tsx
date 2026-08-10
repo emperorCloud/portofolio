@@ -80,7 +80,7 @@ const translations = {
     
     // Hero
     "hero.badge": "AVAILABLE · MARCH 2026",
-    "hero.title": "Beaureilo NANTSA",
+    "hero.title": "Ulrich Tchiem",
     "hero.subtitle": "Infrastructure & Cloud Solutions Architect",
     "hero.stats.1": "infrastructures",
     "hero.stats.2": "Proxmox nodes",
@@ -95,7 +95,7 @@ const translations = {
     "footer.brand": "Infrastructure & Cloud Solutions Architect",
     "footer.contact": "Contact",
     "footer.legal": "Legal notice",
-    "footer.copyright": "© {year} Beaureilo NANTSA — Infrastructure & Cloud Solutions Architect",
+    "footer.copyright": "© {year} Ulrich Tchiem — Infrastructure & Cloud Solutions Architect",
     "footer.tech": "Next.js · Tailwind · Vercel",
     
     // Contact
@@ -106,8 +106,8 @@ const translations = {
     "contact.email": "Email",
     "contact.subject": "Subject",
     "contact.message": "Message",
-    "contact.placeholder.name": "Beaureilo NANTSA",
-    "contact.placeholder.email": "jean@emperorcloud.io",
+    "contact.placeholder.name": "Ulrich Tchiem",
+    "contact.placeholder.email": "ulrich@emperorcloud.io",
     "contact.placeholder.subject": "Cloud architecture, infrastructure audit, Kubernetes deployment...",
     "contact.placeholder.message": "Describe your project, your needs, or ask me a technical question...",
     "contact.submit": "Send message",
