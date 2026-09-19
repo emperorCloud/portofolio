@@ -18,7 +18,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   // 🔥 1. AJOUTE LA BASE URL
-  metadataBase: new URL("https://nantsa-beaureilo.vercel.app"),
+  metadataBase: new URL("https://ulrich-tchiem.vercel.app"),
   
   title: "Beaureilo NANTSA | Infrastructure & Cloud Solutions Architect",
   description:
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "Beaureilo NANTSA | Infrastructure & Cloud Solutions Architect",
     description:
       "Portfolio d'architecture infrastructure d'entreprise : cloud privé, virtualisation, stockage, cybersécurité, Kubernetes et IA locale.",
-    url: "https://nantsa-beaureilo.vercel.app",
+    url: "https://ulrich-tchiem.vercel.app",
     siteName: "Beaureilo NANTSA - Architecte Infrastructure",
     images: [
       {
@@ -65,14 +65,10 @@ export const metadata: Metadata = {
     "Architecte infrastructure",
     "Cloud privé",
     "Proxmox",
-    "VMware",
     "Kubernetes",
     "Cybersécurité",
     "IA locale",
     "Cameroun",
-    "Solution entreprise",
-    "DevOps",
-    "Intégration Systèmes",
   ],
   authors: [{ name: "Beaureilo NANTSA" }],
 };
